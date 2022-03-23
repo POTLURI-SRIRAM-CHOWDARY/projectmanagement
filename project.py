@@ -53,4 +53,68 @@ class Admin(TeamLead):
     def delete_users(self,user):
         pass
     
+class Project:
+    def __init__(self,id,startdate):
+        self.__id = id
+        self.__startdate = startdate
+        self.__enddate = startdate+Constants.NUMBER_OF_DAYS_IN_SPRINT
+        self.__tasks = []
+        
+    def add_task(self,task):
+        pass
+        
+    def remove_task(self,task):
+        pass
+    
+    def get_end_date(self):
+        pass
+    
+class ProjectStats(self):
+    
+    def __init__(self,project):
+        self.__project = project
+    
+
+    def minimum_time_to_complete_project(self):
+        pass
+
+class Task:
+    def __init__(self,name,description,startdate,enddate,employee):
+        self.__id = id
+        self.__name = name
+        self.__description = description
+        self.__startdate = startdate
+        self.__enddate = enddate
+        self.__owner = employee
+        self.__status = TaskStatus.OPEN
+        self.__dependencytasks =[]
+        
+    def get_status(self):
+        pass
+    
+    def get_dependency_tasks(self):
+        pass
+    
+    def change_status(self,status):
+        pass
+    
+    def change_name(self,name):
+        pass
+    
+    def number_of_days_to_complete_task(self):
+        pass
+    
+    def change_description(self,description):
+        pass
+    
+    def change_end_date(self,enddate):
+        pass
+    
+    def add_dependency_tasks(self,task):
+        pass
+    
+    def remove_dependency_tasks(self,tasks):
+        pass
+
+
 
