@@ -1,6 +1,6 @@
 # projectmanagement
 
-##Project desciption based on requirements and assumption
+## Project desciption based on requirements and assumption
 
 Every project has employees, team leaders and admin <br />
 Team leaders can create tasks with employees <br />
